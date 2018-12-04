@@ -1,0 +1,117 @@
+.container { 
+    width: 100%;
+    background-image: url(img/pattern.jpg);
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content { 
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.sidebar { 
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    right: 0;
+    margin-top: 50px;
+
+}
+
+.logo { 
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif ;
+    line-height: 1.5;
+    margin-left: 5px;
+}
+
+.header { 
+    width: 100%;
+    background: black;
+    display: flex;
+    height: 50px;
+}
+.category { 
+    color:white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 2.2;
+}
+
+a { 
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: start;
+}
+
+img { 
+    widows: 70px;
+    height: 70px;
+}
+
+.post { 
+    width: 20%;
+    border: 1px solid grey;
+    background: white;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 30px;
+}
+
+p { 
+    font-size: 15px;
+}
+
+.ad{
+    width: 90%;
+    border: 1px solid grey;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.img2 { 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100px;;
+    height: 100px;
+}
+
+.pp{ 
+    font-size: 20px;
+}
+.logo:hover { 
+    color: red;
+}
+.category:hover { 
+color: red;
+}
+.post a:hover { 
+ color: red;
+}
+
+@media only screen and (max-width: 1000px)  {
+    .container {
+        background-color: red;
+        background-image: none;
+    }
+
+    .post { 
+        max-width: 100%;
+    }
+
+    .sidebar { 
+        visibility: hidden;
+    }

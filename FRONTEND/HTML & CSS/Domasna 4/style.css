@@ -1,0 +1,59 @@
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-auto-rows: 50px;
+    grid-gap: 20px;
+    width: 60%;
+    margin: 0 auto;
+    
+     grid-template-areas: "hd hd hd hd" "aside main main article"
+       
+      "footer footer footer footer";
+}
+
+    /* Користев span затоа што кога користам p големината на тој таг не ги исполнува коцките од гридот
+        и поради тоа ги нема истите димензии како и article и asaide... изгледа малку помал од нив незнам зашто... 
+        па за да биде иста копија како што сте ни дале на примерот морав со span   */
+
+.grid header,aside,article,footer,span { 
+    background-color: #808888;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+
+header { 
+    grid-area: hd;
+    /* grid-column: 1/5;
+    grid-row: 1/2; */
+}
+
+aside { 
+    grid-area: aside;
+    /* grid-column: 4/5;
+    grid-row: 2/4; */
+}
+
+article { 
+    grid-area: article;
+    /* grid-column: 1/2;
+    grid-row: 2/4; */
+}
+
+span { 
+    grid-area: main;
+    /* grid-column: 2/4;
+    grid-row: 2/4; */
+}
+
+footer { 
+    grid-area: footer;
+    /* grid-column: 1/5;
+    grid-row: 4/5; */
+}

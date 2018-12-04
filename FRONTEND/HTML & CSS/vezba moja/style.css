@@ -1,0 +1,28 @@
+table,th,td { 
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+th { 
+  width: 800px;
+  background: green;
+  color: white;
+}
+
+.chris { 
+  background: red;
+}
+
+.ana { 
+  background: yellow;
+}
+
+.richard { 
+  background: purple;
+}
+
+.name { 
+  background: greenyellow;
+  border-bottom: solid blue 1px;
+
+}

@@ -1,0 +1,99 @@
+.body-wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1100px;
+    height: auto;
+    overflow: hidden;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list div {
+    display: flex;
+    width: calc(25% - 10px);
+    height: 100px;
+    max-height: 100px;
+    margin-bottom: 15px;
+    border: 1px dashed rgb(226, 226, 226);
+}
+
+.list div:nth-of-type(odd) {
+    background-color: rgb(182, 115, 165);
+}
+
+.list div:nth-of-type(even) {
+    background-color: rgb(116, 31, 95);
+}
+
+.list div:nth-of-type(n+5):nth-of-type(2n+2) {
+    background-color: rgb(162, 162, 162);
+}
+
+.list div:nth-of-type(n+9):nth-of-type(2n+1):nth-of-type(-n+12) {
+    background-color: rgb(6, 0, 0);
+}
+
+/* .list div:nth-of-type(n+6) {
+    background-color: rgb(85, 5, 65);
+}
+
+.list div:nth-of-type(-n+5) {
+    background-color: rgb(226, 150, 207);
+}
+
+.list div:nth-of-type(2n+3) {
+    background-color: rgb(225, 197, 218);
+}
+
+.list div:first-of-type {
+    background-color: rgb(238, 188, 225);
+}
+
+.list div:last-of-type {
+    background-color: rgb(43, 5, 33);
+}  */
+
+
+@media only screen and (max-width:1100px) { 
+    .list div { 
+        width: calc(50% - 10px);
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:1100px) { 
+    .body-wrap { 
+        width: 80%;
+    }
+
+    .list div { 
+        width: calc(45% - 10px);
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .body-wrap { 
+        width: 90%;
+    }
+
+    .list div {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:900px) { 
+    .body-wrap { 
+        width: 90%;
+    }
+
+    .list div { 
+        width: calc(45% - 10px);
+    }
+}

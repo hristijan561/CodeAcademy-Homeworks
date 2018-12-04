@@ -1,0 +1,114 @@
+.container {
+  width: 100%;
+  min-width:1300px;
+  background: #e2e5e4;
+}
+
+
+.main-container {
+width: 100%;
+height: auto;
+display: flex;
+ }
+.square1 { 
+  width: 50%;
+  height: auto;
+  text-align: center;
+  margin-right: -5px;
+}
+
+.square2 { 
+width: 350px;
+height: 225px;
+background-color:#191970;
+position: relative;
+right: 180px;
+padding-right: 10px;
+padding-left: 10px;
+margin-top: 10px;
+margin-left: -55px;
+}
+.input1 { 
+  width: 50%;
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+  right: 100px;
+}
+
+#register { 
+  margin-top: 5px;
+  padding: 7px 35px;
+  color: #100457;
+  position: relative;
+  left: -5px;
+  border: solid 2px #100457;
+}
+
+#h4grey { 
+  margin-bottom: -15px;
+  position: relative;
+  left: -150px;
+  margin-top: 20px;
+color: grey;
+}
+
+mark { 
+  color: #100457;
+  background: none;
+}
+
+#h4white { 
+  color: white;
+  position: relative;
+  top: -10px;
+}
+
+.input2 { 
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+  top: -25px;
+  right: 5px;
+}
+.checkbox { 
+  width: 20px;
+height: 20px;
+position: relative;
+top: -20px;
+}
+.remember { 
+  color: white;
+  position: relative;
+  top: -60px;
+  left: 30px;
+  font-size: 10pt;
+}
+
+#login {
+  padding: 5px 40px;
+  position: relative;
+  top: -105px;
+  left:235px;
+  border: solid 2px #c48236;
+}
+
+.a { 
+  color: white;
+  font-size: 10pt;
+  position: relative;
+  top: -100px;
+  left: 255px;
+}
+h1 {
+  color:#100457;;
+  position: relative;
+  left: 20px;
+}
+
+p {
+  color: grey;
+  position: relative;
+  left: 20px;
+}

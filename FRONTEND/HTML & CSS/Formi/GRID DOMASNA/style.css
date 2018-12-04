@@ -1,0 +1,145 @@
+.grid { 
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(11,100px);
+    grid-gap: 15px;
+    margin: 0 auto;
+   
+    
+}
+.grid span:hover { 
+    background: none;
+}
+span { 
+    width: 210px;
+    height: 350px;
+    background-color: rgba(252, 252, 252, 0.1);
+    color: #590404;
+    font-size: 37px;
+    font-weight: bold;
+    font-family: 'Dancing Script';
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid div { 
+    box-shadow: 0 1px 1px rgba(34, 25, 25, 0.4);
+    object-fit: fill;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+
+
+.cake1 { 
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.cake2 { 
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+.cake3 { 
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+
+.cake4 { 
+    grid-column: 4/5;
+    grid-row: 1/6
+}
+
+.cake5 { 
+    grid-column: 1/2;
+    grid-row: 3/6;
+}
+
+.cake6 { 
+    grid-column: 2/3;
+    grid-row: 4/7
+}
+
+.cake7 { 
+    grid-column: 3/4;
+    grid-row: 3/9;
+}
+.cake8 { 
+    grid-column: 4/5;
+    grid-row: 6/9;
+}
+
+.cake9 { 
+    grid-column: 1/2;
+    grid-row: 6/9
+}
+
+.cake10 { 
+    grid-column: 2/3;
+    grid-row: 7/9;
+}
+
+
+.img-unset {
+        width: 100%;
+        height: 100%;
+        object-fit: unset;
+}
+.img-fill{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.img-cover { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 
+.txt-a { 
+   
+    bottom: 190px;
+}
+
+.txt-b { 
+    bottom: 130px;
+}
+
+.txt-c { 
+    bottom: 305px;
+}
+
+.txt-d { 
+    bottom: 190px;
+}
+
+.txt-e { 
+    bottom: 190px;
+}
+
+.txt-f { 
+    bottom: 365px;
+}
+
+.txt-g { 
+    bottom: 180px;
+}
+
+.txt-h { 
+    bottom: 135px;
+} */
